@@ -280,6 +280,17 @@ local highlights = {
 	OilDir = { fg = colors.blue.gui, ctermfg = colors.blue.cterm }, -- Directory names
 	OilFile = { fg = colors.fg.gui, ctermfg = colors.fg.cterm }, -- File names
 	OilLink = { fg = colors.cyan.gui, ctermfg = colors.cyan.cterm }, -- Symbolic links
+
+	-- NvimTree
+	NvimTreeNormal = { fg = colors.fg.gui, bg = colors.bg.gui, ctermfg = colors.fg.cterm, ctermbg = colors.bg.cterm },
+	NvimTreeFolderName = { fg = colors.blue.gui, ctermfg = colors.blue.cterm },
+	NvimTreeOpenedFolderName = { fg = colors.blue_bright.gui, ctermfg = colors.blue_bright.cterm },
+	NvimTreeEmptyFolderName = { fg = colors.black_bright.gui, ctermfg = colors.black_bright.cterm },
+	NvimTreeIndentMarker = { fg = colors.black_bright.gui, ctermfg = colors.black_bright.cterm },
+	NvimTreeVertSplit = { fg = colors.black.gui, bg = colors.bg.gui, ctermfg = colors.black.cterm, ctermbg = colors.bg.cterm },
+	NvimTreeRootFolder = { fg = colors.red.gui, ctermfg = colors.red.cterm },
+	NvimTreeSymlink = { fg = colors.cyan.gui, ctermfg = colors.cyan.cterm },
+	NvimTreeStatuslineNc = { fg = colors.black_bright.gui, bg = colors.bg.gui, ctermfg = colors.black_bright.cterm, ctermbg = colors.bg.cterm },
 }
 
 M.colors = colors
