@@ -40,6 +40,8 @@ use {
 - [oil.nvim](https://github.com/stevearc/oil.nvim)
 - [dressing.nvim](https://github.com/stevearc/dressing.nvim)
 - [mini.starter](https://github.com/echasnovski/mini.starter)
+- [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
+- [which-key.nvim](https://github.com/folke/which-key.nvim)
 
 ## License
 
