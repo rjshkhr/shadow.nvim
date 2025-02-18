@@ -308,6 +308,40 @@ local highlights = {
 	NvimTreeRootFolder = { fg = colors.red.gui, ctermfg = colors.red.cterm },
 	NvimTreeSymlink = { fg = colors.cyan.gui, ctermfg = colors.cyan.cterm },
 	NvimTreeStatuslineNc = { fg = colors.black_bright.gui, bg = colors.bg.gui, ctermfg = colors.black_bright.cterm, ctermbg = colors.bg.cterm },
+
+	-- flash.nvim
+	FlashLabel = {
+	  fg = colors.bg.gui,
+	  bg = colors.red_bright.gui,
+	  bold = true,
+	  ctermfg = colors.bg.cterm,
+	  ctermbg = colors.red_bright.cterm,
+	  cterm = { bold = true },
+	}, -- Highlight for labels
+	FlashMatch = {
+	  fg = colors.bg.gui,
+	  bg = colors.yellow.gui,
+	  ctermfg = colors.bg.cterm,
+	  ctermbg = colors.yellow.cterm,
+	}, -- Highlight for matches
+	FlashCurrent = {
+	  fg = colors.bg.gui,
+	  bg = colors.green.gui,
+	  bold = true,
+	  ctermfg = colors.bg.cterm,
+	  ctermbg = colors.green.cterm,
+	  cterm = { bold = true },
+	}, -- Highlight for the current match
+	FlashBackdrop = {
+	  fg = colors.black_bright.gui,
+	  ctermfg = colors.black_bright.cterm,
+	}, -- Dimmed backdrop
+	FlashPrompt = {
+	  fg = colors.cyan.gui,
+	  bold = true,
+	  ctermfg = colors.cyan.cterm,
+	  cterm = { bold = true },
+	}, -- Highlight for the prompt
 }
 
 M.colors = colors
