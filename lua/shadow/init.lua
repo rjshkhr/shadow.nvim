@@ -327,7 +327,7 @@ local highlights = {
 	TSType = { fg = colors.cyan.gui, ctermfg = colors.cyan.cterm },
 	TSTypeBuiltin = { fg = colors.cyan_bright.gui, ctermfg = colors.cyan_bright.cterm },
 	TSVariable = { fg = colors.magenta.gui, ctermfg = colors.magenta.cterm },
-=======
+
 	-- mini.starter
 	MiniStarterHeader = { fg = colors.blue.gui, ctermfg = colors.blue.cterm }, -- Header text
 	MiniStarterItem = { fg = colors.fg.gui, ctermfg = colors.fg.cterm }, -- Item text
